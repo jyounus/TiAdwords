@@ -16,24 +16,9 @@ win.open();
 var tiadwords = require('co.uk.devpulse.tiadwords');
 Ti.API.info("module is => " + tiadwords);
 
-label.text = tiadwords.example();
-
-Ti.API.info("module exampleProp is => " + tiadwords.exampleProp);
-tiadwords.exampleProp = "This is a test value";
-
-if (Ti.Platform.name == "android") {
-	var proxy = tiadwords.createExample({
-		message: "Creating an example Proxy",
-		backgroundColor: "red",
-		width: 100,
-		height: 100,
-		top: 100,
-		left: 150
-	});
-
-	proxy.printMessage("Hello world!");
-	proxy.message = "Hi world!.  It's me again.";
-	proxy.printMessage("Hello world!");
-	win.add(proxy);
-}
-
+tiadwords.sendRequest({
+    conversionId:"",
+    label:"",
+    value:"",
+    isRepeatable:true
+});

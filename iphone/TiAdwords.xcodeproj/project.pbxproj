@@ -26,6 +26,13 @@
 		24DD6CFA1134B3F500162E58 /* CoUkDevpulseTiadwordsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* CoUkDevpulseTiadwordsModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* CoUkDevpulseTiadwordsModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* CoUkDevpulseTiadwordsModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* CoUkDevpulseTiadwordsModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* CoUkDevpulseTiadwordsModuleAssets.m */; };
+		65363FA01AF26BBB009FE8F3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65363F9F1AF26BBB009FE8F3 /* libz.dylib */; };
+		65363FA41AF26D85009FE8F3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65363FA31AF26D85009FE8F3 /* libsqlite3.dylib */; };
+		65363FA51AF26DED009FE8F3 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E5AA391AF2401500BA4137 /* AdSupport.framework */; };
+		65E5AA351AF23FF200BA4137 /* ACTReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E5AA2E1AF23FF200BA4137 /* ACTReporter.h */; };
+		65E5AA361AF23FF200BA4137 /* GoogleConversionPing.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E5AA301AF23FF200BA4137 /* GoogleConversionPing.h */; };
+		65E5AA371AF23FF200BA4137 /* DCTReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E5AA321AF23FF200BA4137 /* DCTReporter.h */; };
+		65E5AA381AF23FF200BA4137 /* libGoogleConversionTracking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E5AA331AF23FF200BA4137 /* libGoogleConversionTracking.a */; };
 		AA747D9F0F9514B9006C5449 /* CoUkDevpulseTiadwords_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* CoUkDevpulseTiadwords_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -36,19 +43,29 @@
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = "TiAdwords";
+			remoteInfo = TiAdwords;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24DD6CF71134B3F500162E58 /* CoUkDevpulseTiadwordsModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoUkDevpulseTiadwordsModule.h"; path = "Classes/CoUkDevpulseTiadwordsModule.h"; sourceTree = "<group>"; };
-		24DD6CF81134B3F500162E58 /* CoUkDevpulseTiadwordsModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CoUkDevpulseTiadwordsModule.m"; path = "Classes/CoUkDevpulseTiadwordsModule.m"; sourceTree = "<group>"; };
+		24DD6CF71134B3F500162E58 /* CoUkDevpulseTiadwordsModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoUkDevpulseTiadwordsModule.h; path = Classes/CoUkDevpulseTiadwordsModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* CoUkDevpulseTiadwordsModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoUkDevpulseTiadwordsModule.m; path = Classes/CoUkDevpulseTiadwordsModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
-		24DE9E0F11C5FE74003F90F6 /* CoUkDevpulseTiadwordsModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CoUkDevpulseTiadwordsModuleAssets.h"; path = "Classes/CoUkDevpulseTiadwordsModuleAssets.h"; sourceTree = "<group>"; };
-		24DE9E1011C5FE74003F90F6 /* CoUkDevpulseTiadwordsModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CoUkDevpulseTiadwordsModuleAssets.m"; path = "Classes/CoUkDevpulseTiadwordsModuleAssets.m"; sourceTree = "<group>"; };
-		AA747D9E0F9514B9006C5449 /* CoUkDevpulseTiadwords_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoUkDevpulseTiadwords_Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		24DE9E0F11C5FE74003F90F6 /* CoUkDevpulseTiadwordsModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoUkDevpulseTiadwordsModuleAssets.h; path = Classes/CoUkDevpulseTiadwordsModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* CoUkDevpulseTiadwordsModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoUkDevpulseTiadwordsModuleAssets.m; path = Classes/CoUkDevpulseTiadwordsModuleAssets.m; sourceTree = "<group>"; };
+		65363F9D1AF26A32009FE8F3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		65363F9F1AF26BBB009FE8F3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		65363FA11AF26BD6009FE8F3 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		65363FA31AF26D85009FE8F3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		65E5AA2E1AF23FF200BA4137 /* ACTReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACTReporter.h; sourceTree = "<group>"; };
+		65E5AA301AF23FF200BA4137 /* GoogleConversionPing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleConversionPing.h; sourceTree = "<group>"; };
+		65E5AA321AF23FF200BA4137 /* DCTReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTReporter.h; sourceTree = "<group>"; };
+		65E5AA331AF23FF200BA4137 /* libGoogleConversionTracking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleConversionTracking.a; sourceTree = "<group>"; };
+		65E5AA341AF23FF200BA4137 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		65E5AA391AF2401500BA4137 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		AA747D9E0F9514B9006C5449 /* CoUkDevpulseTiadwords_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoUkDevpulseTiadwords_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libCoUkDevpulseTiadwords.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCoUkDevpulseTiadwords.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC07E0554694100DB518D /* libCoUkDevpulseTiadwords.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoUkDevpulseTiadwords.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +73,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65363FA51AF26DED009FE8F3 /* AdSupport.framework in Frameworks */,
+				65363FA41AF26D85009FE8F3 /* libsqlite3.dylib in Frameworks */,
+				65363FA01AF26BBB009FE8F3 /* libz.dylib in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				65E5AA381AF23FF200BA4137 /* libGoogleConversionTracking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,17 +95,23 @@
 		0867D691FE84028FC02AAC07 /* TiAdwords */ = {
 			isa = PBXGroup;
 			children = (
+				65E5AA2D1AF23FF200BA4137 /* GoogleConversionTrackingSDK-iOS-3.2.0 */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
-			name = "TiAdwords";
+			name = TiAdwords;
 			sourceTree = "<group>";
 		};
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				65363FA31AF26D85009FE8F3 /* libsqlite3.dylib */,
+				65363FA11AF26BD6009FE8F3 /* libsqlite3.0.dylib */,
+				65363F9F1AF26BBB009FE8F3 /* libz.dylib */,
+				65363F9D1AF26A32009FE8F3 /* StoreKit.framework */,
+				65E5AA391AF2401500BA4137 /* AdSupport.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -110,6 +137,34 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		65E5AA2D1AF23FF200BA4137 /* GoogleConversionTrackingSDK-iOS-3.2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				65E5AA2E1AF23FF200BA4137 /* ACTReporter.h */,
+				65E5AA2F1AF23FF200BA4137 /* Deprecated */,
+				65E5AA311AF23FF200BA4137 /* DoubleClick */,
+				65E5AA331AF23FF200BA4137 /* libGoogleConversionTracking.a */,
+				65E5AA341AF23FF200BA4137 /* README.txt */,
+			);
+			path = "GoogleConversionTrackingSDK-iOS-3.2.0";
+			sourceTree = "<group>";
+		};
+		65E5AA2F1AF23FF200BA4137 /* Deprecated */ = {
+			isa = PBXGroup;
+			children = (
+				65E5AA301AF23FF200BA4137 /* GoogleConversionPing.h */,
+			);
+			path = Deprecated;
+			sourceTree = "<group>";
+		};
+		65E5AA311AF23FF200BA4137 /* DoubleClick */ = {
+			isa = PBXGroup;
+			children = (
+				65E5AA321AF23FF200BA4137 /* DCTReporter.h */,
+			);
+			path = DoubleClick;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -117,9 +172,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E5AA361AF23FF200BA4137 /* GoogleConversionPing.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* CoUkDevpulseTiadwords_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* CoUkDevpulseTiadwordsModule.h in Headers */,
+				65E5AA351AF23FF200BA4137 /* ACTReporter.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* CoUkDevpulseTiadwordsModuleAssets.h in Headers */,
+				65E5AA371AF23FF200BA4137 /* DCTReporter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +196,8 @@
 			);
 			dependencies = (
 			);
-			name = "TiAdwords";
-			productName = "TiAdwords";
+			name = TiAdwords;
+			productName = TiAdwords;
 			productReference = D2AAC07E0554694100DB518D /* libCoUkDevpulseTiadwords.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -215,11 +273,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = "/tmp/CoUkDevpulseTiadwords.dst";
+				DSTROOT = /tmp/CoUkDevpulseTiadwords.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CoUkDevpulseTiadwords_Prefix.pch";
+				GCC_PREFIX_HEADER = CoUkDevpulseTiadwords_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -232,18 +290,18 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/GoogleConversionTrackingSDK-iOS-3.2.0";
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "CoUkDevpulseTiadwords";
+				PRODUCT_NAME = CoUkDevpulseTiadwords;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
-				SDKROOT = iphoneos;
+				TITANIUM_SDK_VERSION = 3.5.1.GA;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
@@ -253,11 +311,11 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = "/tmp/CoUkDevpulseTiadwords.dst";
+				DSTROOT = /tmp/CoUkDevpulseTiadwords.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CoUkDevpulseTiadwords_Prefix.pch";
+				GCC_PREFIX_HEADER = CoUkDevpulseTiadwords_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -270,13 +328,13 @@
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/GoogleConversionTrackingSDK-iOS-3.2.0";
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "CoUkDevpulseTiadwords";
+				PRODUCT_NAME = CoUkDevpulseTiadwords;
 				RUN_CLANG_STATIC_ANALYZER = NO;
-				SDKROOT = iphoneos;
+				TITANIUM_SDK_VERSION = 3.5.1.GA;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
@@ -288,11 +346,11 @@
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = "/tmp/CoUkDevpulseTiadwords.dst";
+				DSTROOT = /tmp/CoUkDevpulseTiadwords.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CoUkDevpulseTiadwords_Prefix.pch";
+				GCC_PREFIX_HEADER = CoUkDevpulseTiadwords_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -311,7 +369,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "CoUkDevpulseTiadwords";
+				PRODUCT_NAME = CoUkDevpulseTiadwords;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -326,11 +384,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LIBRARY = "libstdc++";
-				DSTROOT = "/tmp/CoUkDevpulseTiadwords.dst";
+				DSTROOT = /tmp/CoUkDevpulseTiadwords.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CoUkDevpulseTiadwords_Prefix.pch";
+				GCC_PREFIX_HEADER = CoUkDevpulseTiadwords_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -346,7 +404,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "CoUkDevpulseTiadwords";
+				PRODUCT_NAME = CoUkDevpulseTiadwords;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";

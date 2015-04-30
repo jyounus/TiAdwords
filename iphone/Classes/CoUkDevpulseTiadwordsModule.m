@@ -9,6 +9,7 @@
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
+#import "ACTReporter.h"
 
 @implementation CoUkDevpulseTiadwordsModule
 
@@ -87,21 +88,23 @@
 
 #pragma Public APIs
 
--(id)example:(id)args
+-(void)sendRequest:(id)args
 {
-	// example method
-	return @"hello world";
+    ENSURE_UI_THREAD_1_ARG(args);
+    ENSURE_ARG_COUNT(args, 1);
+    
+    NSDictionary *dict = args[0];
+    
+    NSString *conversionId = dict[@"conversionId"];
+    NSString *label = dict[@"label"];
+    NSString *value = dict[@"value"];
+    BOOL isRepeatable = dict[@"isRepeatable"];
+    
+    NSLog(@"[INFO] Sending Adwords request: %@, %@, %@, %@", conversionId, label, value, isRepeatable);
+    
+    [ACTConversionReporter reportWithConversionID:conversionId label:label value:value isRepeatable:isRepeatable];
 }
 
--(id)exampleProp
-{
-	// example property getter
-	return @"hello world";
-}
 
--(void)setExampleProp:(id)value
-{
-	// example property setter
-}
 
 @end
