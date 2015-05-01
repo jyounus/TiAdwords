@@ -1,7 +1,7 @@
 # TiAdwords
 
 
-AdWords SDK for Titanium. 64bit ready.
+AdWords SDK for Titanium. 64bit ready. Download compiled module from the dist folder. 
 
 
 Just a quick wrapper for the latest Google AdWords SDK for iOS (GoogleConversionTrackingSDK-iOS-3.2.0).
