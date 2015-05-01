@@ -25,3 +25,10 @@
 //
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 // 
+
+
+//FRAMEWORK_SEARCH_PATHS=$(SRCROOT)/../../modules/iphone/co.uk.devpulse.tiadwords/1.0/platform
+///Library/Application\ Support/Titanium/modules/iphone/co.uk.devpulse.tiadwords/1.0/platform
+//~/Library/Application\ Support/Titanium/modules/iphone/co.uk.devpulse.tiadwords/1.0/platform
+
+OTHER_LDFLAGS=$(inherited) -framework AdSupport

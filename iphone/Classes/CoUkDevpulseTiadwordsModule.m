@@ -98,11 +98,11 @@
     NSString *conversionId = dict[@"conversionId"];
     NSString *label = dict[@"label"];
     NSString *value = dict[@"value"];
-    BOOL isRepeatable = dict[@"isRepeatable"];
+    NSNumber *isRepeatable = dict[@"isRepeatable"];
     
     NSLog(@"[INFO] Sending Adwords request: %@, %@, %@, %@", conversionId, label, value, isRepeatable);
     
-    [ACTConversionReporter reportWithConversionID:conversionId label:label value:value isRepeatable:isRepeatable];
+    [ACTConversionReporter reportWithConversionID:conversionId label:label value:value isRepeatable:isRepeatable.boolValue];
 }
 
 

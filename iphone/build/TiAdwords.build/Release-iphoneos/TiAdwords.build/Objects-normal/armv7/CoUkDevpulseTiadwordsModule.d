@@ -31,5 +31,4 @@ dependencies: \
   /Users/jayy/Library/Application\ Support/Titanium/mobilesdk/osx/3.5.1.GA/iphone/include/TiHost.h \
   /Users/jayy/Library/Application\ Support/Titanium/mobilesdk/osx/3.5.1.GA/iphone/include/Bridge.h \
   /Users/jayy/Library/Application\ Support/Titanium/mobilesdk/osx/3.5.1.GA/iphone/include/TiStylesheet.h \
-  /Users/jayy/Documents/Titanium_Studio_Workspace/TiAdwords/iphone/GoogleConversionTrackingSDK-iOS-3.2.0/DoubleClick/DCTReporter.h \
-  /Users/jayy/Documents/Titanium_Studio_Workspace/TiAdwords/iphone/GoogleConversionTrackingSDK-iOS-3.2.0/ACTReporter.h
+  /Users/jayy/Documents/Titanium_Studio_Workspace/TiAdwords/iphone/platform/ACTReporter.h
